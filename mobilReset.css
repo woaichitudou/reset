@@ -46,8 +46,14 @@ input {
 button {
     outline: 0
 }
-
-
+/* 移动端边框1像素实现*/
+.border-bottom-1px {
+    box-shadow: inset 0px -1px 1px -1px #c8c7cc;
+}
+        
+.border-top-1px {
+    box-shadow: inset 0px 1px 1px -1px #c8c7cc;
+}
 /* 设置字体在移动端不能选中 */
 
 * {
